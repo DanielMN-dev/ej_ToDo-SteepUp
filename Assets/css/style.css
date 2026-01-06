@@ -1,0 +1,329 @@
+*{
+    /* box-sizing: border y padding no suman */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.menuBase{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(0, 26, 26);
+}
+
+.contenedorGrp{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(0, 181, 181);
+}
+
+.tituloGrande{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 350%;
+    height: 35vh;
+    /*padding: 5% 5% 5% 5%;*/
+    /*background-color: blue;*/
+    color: white;
+}
+
+.contenedorInputsGrp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5% 5% 5%;
+}
+
+.tablaInputs{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 5% 5% 5% 5%;
+}
+
+.iniciarSesion{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 5% 5% 5% 0%;
+    
+}
+.iniciarSesionInput{
+    display: flex;
+    width: 100%;
+}
+
+.contenedorSubmit{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    align-items: center;
+    padding: 5% 5% 5% 5%;
+}
+
+.BotonSubmit{
+    display: flex;
+    background-color: aqua;
+    border-radius: 15px;
+    width: 35%;
+    height: 30%;
+}
+.BotonSubmit:hover{
+    background-color: rgb(222, 255, 255);
+}
+
+.contenedorCrearCuenta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.NoTienesCuenta{
+    color: white;
+    justify-content: center;
+    width: 50%;
+    padding: 1% 1% 1% 1%;
+}
+.NoTienesCuenta2{
+    color: rgb(0, 217, 255);
+    justify-content: center;
+    width: 50%;
+    padding: 1% 1% 1% 1%;
+}
+.NoTienesCuenta2:hover{
+    color: rgb(212, 248, 255);
+}
+
+/**/
+.tituloTabla{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 150%;
+}
+
+
+/*MENU VIEW*/
+
+.menuView{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    align-items: center;
+    height: 20vh;
+}
+.tituloSaludo{
+    display: flex;
+    width: 90%;
+
+    padding: 1% 1% 1% 1%;
+    font-size: 250%;
+}
+.salirSesion{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 20vh;
+    padding: 1% 1% 1% 1%;
+}
+.contenedorSalirSesion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.botonCerrarSesion{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 120%;
+    height: 15vh;
+    border-radius: 15px;
+}
+
+/*HOME*/
+
+.menuBaseHome{
+    display: flex;
+    flex-direction: column;
+    padding: 1% 1% 1% 1%;
+    height: 80vh;
+    background-color: rgb(0, 26, 26);
+    color: white;
+}
+
+.buscadorTareas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    height: 5vh;
+}
+.textoBuscarTarea{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1% 1% 1% 1%;
+}
+.inputBuscarTarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 1% 1% 1%;
+}
+.categoriaBuscarTarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 1% 1% 1%;
+}
+.botonInputBuscarTarea{
+    display: flex;
+    background-color: aqua;
+    color: white;
+    width: 8%;
+    font-size: large;
+    border-radius: 15px;
+}
+
+.contenedorCrearTarea{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.506);
+    height: 5vh;
+    margin-top: 2%;
+}
+.tituloCrearTarea{
+    display: flex;
+    background-color: rgb(0, 255, 55);
+    align-items: center;
+    justify-content:flex-end;
+    height: 5vh;
+    width: 100%;
+    color: black;
+    font-size: large;
+}
+.contenedorMaestro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.506);
+    height: 5vh;
+    margin-top: 2%;
+}
+.tituloCategoria{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 10%;
+    padding: 1% 1% 1% 1%;
+    margin-left: 5%;
+    color: black;
+    font-size: large;
+}
+
+/* HOME MOSTRAR TAREAS PENDIENTES*/
+.contenedorConsultas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.506);
+    height: 5vh;
+    border-radius: 15px;
+}
+.contenedor1{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    font-size: 140%;
+}
+.contenedor2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    font-size: 140%;
+}
+.contenedor3{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    font-size: 100%;
+    background-color: rgb(0, 217, 0);
+    border-radius: 15px;
+    color: white;
+}
+.contenedor3:hover{
+    background-color: rgb(186, 255, 186);
+    color: black;
+}
+.contenedor4{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    font-size: 100%;
+    background-color: rgb(209, 0, 0);
+    border-radius: 15px;
+    color: white;
+}
+.contenedor4:hover{
+    background-color: rgb(255, 186, 186);
+    color: black;
+}
+.contenedorResult2{
+    display: flex;
+    flex-direction: column;
+    padding: 1% 1% 1% 1%;
+
+}
+
+/*CREAR TAREA*/
+.centrarContenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contenedorformulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 50%;
+    padding: 1% 1% 1% 1%;
+}
+.Filas{
+    color: black;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Evita la redimensión */
+}
+
+.botonInputSubmit1{
+    display: flex;
+    background-color: aqua;
+    color: white;
+    width: 8%;
+    font-size: large;
+    border-radius: 15px;
+}
+
+.FilaBoton{
+    display: flex;
+    justify-content: center;
+}
